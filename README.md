@@ -23,11 +23,24 @@ The physical unit consists of a custom dual-compartment enclosure equipped with:
 - **Proximity & Level Sensors**: Ultrasonic sensors detect approaching users to trigger the servo-controlled lid, while individual internal sensors monitor dry and wet bin fill percentages.
 - **Moisture Classification**: An integrated soil moisture probe instantly differentiates wet waste from dry waste upon entry.
 
+<div align="center">
+  <img src="images/hardware_prototype.jpg" alt="Smart Dustbin Physical Prototype Architecture" width="500" />
+  <p><em>Figure 1: Custom dual-compartment smart dustbin prototype featuring automated top lid, sorting servo diverter flap, and dual internal ultrasonic level sensors.</em></p>
+</div>
+
 ### Web Management Dashboard
 - **Admin Broadcasts & Task Control**: Administrators can send customized targeted alerts to workers or station managers, issue direct command overrides (e.g., maintenance lockouts, force-opening lids), and reward top-performing staff with leaderboard bonus points.
 - **Sanitation Worker Interface**: Provides a streamlined layout detailing assigned collection tasks, specific coach/platform locations, live compartment fill gauges, and one-click task completion reporting.
 
-*(Note: System interface photos and hardware implementation diagrams can be found referenced in your deployment logs and demonstration archives.)*
+<div align="center">
+  <img src="images/train_admin_dashboard.png" alt="Train Admin Broadcast Portal" width="700" />
+  <p><em>Figure 2: Train Administrator live dashboard showcasing custom targeted alert dissemination and critical full-state tracking logic.</em></p>
+</div>
+
+<div align="center">
+  <img src="images/worker_and_station_admin.png" alt="Worker and Station Admin Interface" width="700" />
+  <p><em>Figure 3: Synchronized side-by-side view illustrating real-time gamified worker points leaderboards and continuous individual bin moisture/level gauges.</em></p>
+</div>
 
 ---
 
